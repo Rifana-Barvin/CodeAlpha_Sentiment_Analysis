@@ -1,0 +1,16 @@
+
+# Virtual environment
+venv/
+
+# Python cache files
+__pycache__/
+*.pyc
+
+# Original large dataset
+data/training.1600000.processed.noemoticon.csv
+
+# Keep the smaller sample dataset
+!data/sentiment_data.csv
+
+# Jupyter files
+.ipynb_checkpoints/
